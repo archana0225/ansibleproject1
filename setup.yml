@@ -1,0 +1,8 @@
+---
+- name: Setup Apache Tomcat and Maven
+  hosts: webservers
+  become: yes
+  roles:
+    - apache
+    - maven
+
