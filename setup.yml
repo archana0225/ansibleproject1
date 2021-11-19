@@ -3,6 +3,6 @@
   hosts: webservers
   become: yes
   roles:
-    - apache
-    - maven
+    - docker
+
 
