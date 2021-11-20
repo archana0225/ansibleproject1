@@ -1,5 +1,5 @@
 ---
-- name: Setup Apache Tomcat and Maven
+- name: Docker setup
   hosts: webservers
   become: yes
   roles:
